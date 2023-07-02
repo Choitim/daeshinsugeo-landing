@@ -1,0 +1,158 @@
+:root {
+  color-scheme: light only;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 390px;
+  height: 844px;
+  border: 1px solid;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.header .logo {
+  width: 80px;
+  border-radius: 10px;
+}
+
+.header .title {
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+section .signform {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+
+.email,
+.password,
+.name,
+.telephone {
+  width: 300px;
+  height: 40px;
+  margin: 7px;
+  padding-left: 5px;
+  border-radius: 5px;
+  border: solid 1px #699c78;
+  background-color: #fff;
+  font-size: 10px;
+}
+
+.checkbox {
+  margin-top: 10px;
+  width: 15px;
+}
+
+.privacy {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  margin-left: 5px;
+}
+
+.submit {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #699c78;
+  color: white;
+  border: none;
+  margin-top: 20px;
+}
+
+.line hr {
+  text-align: center;
+  width: 260px;
+}
+
+.social-sign {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: px;
+}
+
+.social-sign .appleAuth {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #000;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  margin: 20px 50px 5px;
+  padding: 13px 63px 12px 62px;
+}
+
+.social-sign .naverAuth {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #40db6d;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  margin: 5px 52px 5px 48px;
+  padding: 13px 50px 12px;
+}
+
+.social-sign .kakaoAuth {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #f2f627;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  margin: 5px 52px 0 48px;
+  padding: 13px 50px 12px;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+}

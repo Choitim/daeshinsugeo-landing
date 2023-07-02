@@ -1,0 +1,216 @@
+:root {
+  color-scheme: light only;
+}
+
+.title-sub {
+  width: 56px;
+  height: 18px;
+  margin: 0 13px 11px 25px;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ccc;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.current-subscribe {
+  display: flex;
+  justify-content: center;
+  width: 370px;
+  height: 120px;
+  margin: 11px 10px 15px 9px;
+  padding: 10px 12px 10px 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+
+.select-sub {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.select-plan {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.select-plan-sel {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+form {
+  justify-content: center;
+  width: 390px;
+  height: 844px;
+  flex-grow: 0;
+  padding: 38px 0 7px 1px;
+  background-color: #fff;
+}
+
+.person-name {
+  margin: 15px 10px 10px 9px;
+  padding: 18px 54px 16px 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+
+.address-info {
+  margin: 15px 10px 10px 9px;
+  padding: 18px 54px 16px 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+
+.payment {
+  width: 390px;
+  height: 160px;
+  margin: 12px 9px 12px 10px;
+  padding: 21px 230px 16px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+
+.payment p {
+  width: 87px;
+  height: 18px;
+  margin: 0 33px 25px 0;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.subscribe {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #699c78;
+  border: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+/* person-name input 값 */
+.person-name p {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.person-name input {
+  margin: 3px;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: solid 1px #699c78;
+  background-color: #fff;
+  font-size: 12px;
+  padding: 3px;
+}
+
+/* 주소 input값 */
+.address-info p {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.address-info input {
+  margin: 3px;
+}
+
+.zipcode {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: solid 1px #699c78;
+  background-color: #fff;
+  font-size: 12px;
+  padding: 3px;
+}
+
+.fa-solid {
+  background-color: #699c78;
+  padding: 10px;
+  border-radius: 3px;
+  color: white;
+}
+
+.address {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: solid 1px #699c78;
+  background-color: #fff;
+  font-size: 12px;
+  padding: 3px;
+}
+
+.detail-add {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: solid 1px #699c78;
+  background-color: #fff;
+  font-size: 12px;
+  padding: 3px;
+}
